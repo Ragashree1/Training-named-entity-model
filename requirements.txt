@@ -1,0 +1,12 @@
+Requirements 
+
+For retraining the model
+1. download spacy using the below commands
+>> python -m spacy download en_core_web_lg
+>> pip install 'spacy[transformers]'
+2. go to [https://spacy.io/usage/training] to get contents of base_config file and save 
+the file under the same directory as the notebook
+- select ner, cpu/gpu and select accuracy for optimization 
+3. update configurations such as in generated config.cfg file as necessary
+3. run the ipynb file 
+ 
