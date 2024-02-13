@@ -5,9 +5,9 @@ This repository contains code for training a Named Entity Recognition (NER) mode
 ## Installation
 
 1. Install spaCy and download the large English model:
-   python -m spacy download en_core_web_lg
+   ``` python -m spacy download en_core_web_lg ```
 3. Install the transformers component for spaCy:
-   pip install 'spacy[transformers]'
+   ``` pip install 'spacy[transformers]' ```
 
 ## Training
 
